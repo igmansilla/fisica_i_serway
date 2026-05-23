@@ -44,17 +44,23 @@ targets = {
         "dest_name": "Fisica_I_Capitulo_06.pdf",
         "description": "Capítulo 6 completo con espacios"
     },
-    "ejercicios_preparacion": {
-        "tex_path": os.path.join(base_dir, "ejercicios_preparacion.tex"),
+    "ejercicios_preparacion_01": {
+        "tex_path": os.path.join(base_dir, "ejercicios_preparacion_01.tex"),
         "working_dir": base_dir,
-        "dest_name": "Fisica_I_Ejercicios_Preparacion.pdf",
-        "description": "Serie de ejercicios seleccionados para preparar examen"
+        "dest_name": "Fisica_I_Ejercicios_Preparacion_01.pdf",
+        "description": "Serie de ejercicios seleccionados para preparar examen (Caps 1-3)"
     },
-    "examenes_practica": {
-        "tex_path": os.path.join(base_dir, "examenes_practica.tex"),
+    "ejercicios_preparacion_02": {
+        "tex_path": os.path.join(base_dir, "ejercicios_preparacion_02.tex"),
         "working_dir": base_dir,
-        "dest_name": "Fisica_I_Examenes_Practica.pdf",
-        "description": "Exámenes de práctica (Examen 1 y Examen 2)"
+        "dest_name": "Fisica_I_Ejercicios_Preparacion_02.pdf",
+        "description": "Serie de ejercicios seleccionados para preparar examen (Caps 4-6)"
+    },
+    "examenes_practica_01": {
+        "tex_path": os.path.join(base_dir, "examenes_practica_01.tex"),
+        "working_dir": base_dir,
+        "dest_name": "Fisica_I_Examenes_Practica_01.pdf",
+        "description": "Exámenes de práctica (Caps 1-3)"
     }
 }
 
