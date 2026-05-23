@@ -1,0 +1,25 @@
+# LaTeX auxiliary files
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+*.auxlock
+*.blg
+*.bbl
+*.ind
+*.ilg
+*.idx
+*.lof
+*.lot
+*.maf
+*.mtc*
+*.nav
+*.snm
+*.vrb
+
+# OS files
+.DS_Store
+Thumbs.db
