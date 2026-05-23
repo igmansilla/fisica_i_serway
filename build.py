@@ -25,6 +25,18 @@ targets = {
         "working_dir": base_dir,
         "dest_name": "Fisica_I_Capitulo_03.pdf",
         "description": "Capítulo 3 completo con espacios"
+    },
+    "ejercicios_preparacion": {
+        "tex_path": os.path.join(base_dir, "ejercicios_preparacion.tex"),
+        "working_dir": base_dir,
+        "dest_name": "Fisica_I_Ejercicios_Preparacion.pdf",
+        "description": "Serie de ejercicios seleccionados para preparar examen"
+    },
+    "examenes_practica": {
+        "tex_path": os.path.join(base_dir, "examenes_practica.tex"),
+        "working_dir": base_dir,
+        "dest_name": "Fisica_I_Examenes_Practica.pdf",
+        "description": "Exámenes de práctica (Examen 1 y Examen 2)"
     }
 }
 
