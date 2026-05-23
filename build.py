@@ -38,6 +38,12 @@ targets = {
         "dest_name": "Fisica_I_Capitulo_05.pdf",
         "description": "Capítulo 5 completo con espacios"
     },
+    "capitulo_06": {
+        "tex_path": os.path.join(base_dir, "capitulo_06.tex"),
+        "working_dir": base_dir,
+        "dest_name": "Fisica_I_Capitulo_06.pdf",
+        "description": "Capítulo 6 completo con espacios"
+    },
     "ejercicios_preparacion": {
         "tex_path": os.path.join(base_dir, "ejercicios_preparacion.tex"),
         "working_dir": base_dir,
