@@ -8,11 +8,17 @@ base_dir = "/home/ignacio/personas/fisica_i_serway"
 output_dir = os.path.join(base_dir, "pdfs")
 
 targets = {
-    "main": {
-        "tex_path": os.path.join(base_dir, "main.tex"),
+    "capitulo_01": {
+        "tex_path": os.path.join(base_dir, "capitulo_01.tex"),
         "working_dir": base_dir,
         "dest_name": "Fisica_I_Capitulo_01.pdf",
         "description": "Capítulo 1 completo con espacios"
+    },
+    "capitulo_02": {
+        "tex_path": os.path.join(base_dir, "capitulo_02.tex"),
+        "working_dir": base_dir,
+        "dest_name": "Fisica_I_Capitulo_02.pdf",
+        "description": "Capítulo 2 completo con espacios"
     }
 }
 
