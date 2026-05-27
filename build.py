@@ -62,6 +62,12 @@ targets = {
         "dest_name": "Fisica_I_Capitulo_09.pdf",
         "description": "Capítulo 9 completo con espacios"
     },
+    "capitulo_10": {
+        "tex_path": os.path.join(base_dir, "capitulo_10.tex"),
+        "working_dir": base_dir,
+        "dest_name": "Fisica_I_Capitulo_10.pdf",
+        "description": "Capítulo 10 completo con espacios"
+    },
     "ejercicios_preparacion_01": {
         "tex_path": os.path.join(base_dir, "ejercicios_preparacion_01.tex"),
         "working_dir": base_dir,
@@ -74,11 +80,23 @@ targets = {
         "dest_name": "Fisica_I_Ejercicios_Preparacion_02.pdf",
         "description": "Serie de ejercicios seleccionados para preparar examen (Caps 4-6)"
     },
+    "ejercicios_preparacion_04": {
+        "tex_path": os.path.join(base_dir, "ejercicios_preparacion_04.tex"),
+        "working_dir": base_dir,
+        "dest_name": "Fisica_I_Ejercicios_Preparacion_04.pdf",
+        "description": "Serie de ejercicios seleccionados para preparar examen (Cap 10)"
+    },
     "examenes_practica_01": {
         "tex_path": os.path.join(base_dir, "examenes_practica_01.tex"),
         "working_dir": base_dir,
         "dest_name": "Fisica_I_Examenes_Practica_01.pdf",
         "description": "Exámenes de práctica (Caps 1-3)"
+    },
+    "examenes_practica_04": {
+        "tex_path": os.path.join(base_dir, "examenes_practica_04.tex"),
+        "working_dir": base_dir,
+        "dest_name": "Fisica_I_Examenes_Practica_04.pdf",
+        "description": "Exámenes de práctica (Cap 10)"
     }
 }
 
